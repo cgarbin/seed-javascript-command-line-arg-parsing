@@ -1,4 +1,4 @@
-# seed-python
+# seed-command-line-arg-parsing
 
 A seed for command-line argument parsing in JavaScript.
 
@@ -27,6 +27,9 @@ for free):
 
 The program adds or multiplies the first two numbers, as specified. Verbose
 does what is expected: prints more information.
+
+It's also meant to be installed as with node (`npm install -g`). See the `bin` section
+of [package.json](package.json) for the name used to invoke the script once installed.
 
 # License
 
