@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "bin": {
-    "snippet": "./index.js"
+    "seed-command-line": "./index.js"
   },
   "dependencies": {
     "commander": "^2.16.0"
