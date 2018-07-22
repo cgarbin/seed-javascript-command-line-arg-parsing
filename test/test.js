@@ -10,11 +10,11 @@
  * - https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
  */
 
-let expect = require("chai").expect;
-let { describe, it } = require("mocha");
+const expect = require("chai").expect;
+const { describe, it } = require("mocha");
 
-let add = require("../lib/add");
-let multiply = require("../lib/multiply");
+const add = require("../lib/add");
+const multiply = require("../lib/multiply");
 
 describe("add()", function() {
   it("should add two numbers", function() {
