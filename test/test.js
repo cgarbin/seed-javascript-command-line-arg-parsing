@@ -1,4 +1,14 @@
-// See https://hackernoon.com/a-crash-course-on-testing-with-node-js-6c7428d3da02
+/**
+ * Unit tests with mocha and chai.
+ *
+ * Run them with `npm test`.
+ *
+ * References:
+ *
+ * - https://mherman.org/blog/2015/09/10/testing-node-js-with-mocha-and-chai/
+ * - https://hackernoon.com/a-crash-course-on-testing-with-node-js-6c7428d3da02
+ * - https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
+ */
 
 let expect = require("chai").expect;
 let add = require("../lib/add");
