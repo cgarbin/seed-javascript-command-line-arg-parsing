@@ -31,6 +31,15 @@ does what is expected: prints more information.
 It's also meant to be installed as with node (`npm install -g`). See the `bin` section
 of [package.json](package.json) for the name used to invoke the script once installed.
 
+# How to work with this program
+
+- Install node, if not yet installed
+- Clone git repository
+- `cd` to the repository directory
+- Install all dependencies: `npm install`
+- Run unit tests with `npm test`
+- Install as a shell command with `npm install -g`
+
 # License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
