@@ -11,6 +11,8 @@
  */
 
 let expect = require("chai").expect;
+let { describe, it } = require("mocha");
+
 let add = require("../lib/add");
 let multiply = require("../lib/multiply");
 
