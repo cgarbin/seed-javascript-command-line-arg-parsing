@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Christian Garbin",
   "license": "MIT",
   "bin": {
     "seed-command-line": "./index.js"
