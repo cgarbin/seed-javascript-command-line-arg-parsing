@@ -11,6 +11,7 @@
  * - Validating parameter type (e.g. expect a number)
  * - Handling optional parameters
  * - Hanlding short (-v) and long (--verbose) version of parameters
+ * - Splitting the code into modules to organize it
  *
  * It uses Commander.js for arguments/options parsing.
  *
@@ -31,6 +32,8 @@
  */
 
 const program = require("commander");
+const add = require("./lib/add");
+const multiply = require("./lib/multiply");
 
 let number1 = 0;
 let number2 = 0;
@@ -73,7 +76,7 @@ if (program.verbose) {
 }
 
 if (program.operation === "add") {
-  console.log("Number1 + Number2 = " + (number1 + number2));
+  console.log("Number1 + Number2 = " + add.add(number1, number2));
 } else {
-  console.log("Number1 * Number2 = " + number1 * number2);
+  console.log("Number1 * Number2 = " + multiply.multiply(number1, number2));
 }
