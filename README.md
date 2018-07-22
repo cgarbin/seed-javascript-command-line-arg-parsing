@@ -39,6 +39,7 @@ of [package.json](package.json) for the name used to invoke the script once inst
 - Install all dependencies: `npm install`
 - Run unit tests with `npm test`
 - Install as a shell command with `npm install -g`
+- During development, link to the working version with `npm link`
 
 # License
 
