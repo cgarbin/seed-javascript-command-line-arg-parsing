@@ -9,6 +9,7 @@
  * - https://hackernoon.com/a-crash-course-on-testing-with-node-js-6c7428d3da02
  * - https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2018-f68950900bc3
  */
+"use strict";
 
 const expect = require("chai").expect;
 const { describe, it } = require("mocha");

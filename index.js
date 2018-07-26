@@ -30,6 +30,7 @@
  * The program adds or multiplies the first two numbers, as specified. Verbose
  * does what is expected: print more information.
  */
+"use strict";
 
 const program = require("commander");
 const add = require("./lib/add");
