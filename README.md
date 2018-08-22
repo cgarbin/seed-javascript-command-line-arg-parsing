@@ -10,6 +10,8 @@ Covers:
 - Validating parameter type (e.g. expect a number)
 - Handling optional parameters
 - Handling short (`-v`) and long (`--verbose`) version of parameters
+- Splitting/organizing code in modules (one for each command line option)
+- Unit test with `mocha` and `chai`
 
 It uses [Commander.js](https://github.com/tj/commander.js/) to parse the arguments.
 
