@@ -41,7 +41,7 @@ let number2 = 0;
 
 // number1 number1 [--operation add|multiply] (default 'add') [--verbose|-v]
 program
-  .version("0.1.0")
+  .version("0.2.0")
   .description("Adds or multiplies two numbers")
   // Two arguments
   .arguments("<number1> <number2>")
