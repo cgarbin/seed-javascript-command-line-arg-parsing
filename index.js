@@ -66,12 +66,6 @@ program.action((n1, n2) => {
   }
 });
 
-// Show help if no option given (also exits the program)
-// Must be checked before attempting to parse the arguments
-if (program.args.length === 0) {
-  program.help();
-}
-
 program.parse();
 
 const options = program.opts();
